@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kuliner"
+            android:icon="@mipmap/ic_store_black_24dp"
+            android:title="Kuliner" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@mipmap/ic_local_dining_black_24dp"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@mipmap/ic_place_black_48dp"
+            android:title="Posisi" />
+    </group>
+    <item android:title="Users">
+        <menu>
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@mipmap/ic_person_black_24dp"
+                android:title="User" />
+            <item
+                android:id="@+id/nav_password"
+                android:icon="@mipmap/ic_vpn_key_black_24dp"
+                android:title="Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_cancel_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>
